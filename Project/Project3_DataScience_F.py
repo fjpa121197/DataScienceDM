@@ -216,7 +216,8 @@ def UCTPlayGame():
         else:
             m = UCT(rootstate=state, itermax=100, verbose=False)
         print("Best Move: " + str(m) + "\n")
-        arr_data = state.board
+        arr_data = state.board #gets board state
+        #For loop to append the player who took action, and the move it took
         for idx,x in enumerate(arr_data):
             if(idx != 8):
                 data.write(str(x) + ";")
@@ -239,7 +240,9 @@ def UCTPlayGame():
 if __name__ == "__main__":
     """ Play a single game to the end using UCT for both players. 
     """
+    #open file to write data
     data = open("data_mtc.txt","a")
+    #play game for 100 times
     for x in range(100):
         UCTPlayGame()
     
