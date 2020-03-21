@@ -1,0 +1,1 @@
+You can find the repository for lab10 in here: https://github.com/fjpa121197/Deploy_ML
