@@ -10,4 +10,5 @@ Francisco Parrilla A. 1900939
 - results_mcts.csv : csv file with results from using default mcts code
 - results_tree_tree.csv : csv file with results clf vs clf
 - uct_func_class.py : python file with MCTS code
+- data_classifiers_example.csv : example file of data collected during iterations (only 20 iterations)
  
