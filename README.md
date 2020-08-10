@@ -2,6 +2,7 @@
 
 Student: Francisco Parrilla A. 1900939
 
-You can find both assignments in the folder "Project"
+This is the repository used for the Data Science and Decision Making module and the labs, where each lab focuses in a different topic related to it.
 
-There rest of the folders are from the labs
+You can find a reinforcement learning project in the folder "Project".
+
